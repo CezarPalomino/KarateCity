@@ -1,0 +1,49 @@
+#memoriais {
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Yuji Syuku', serif;
+    margin-top: 5rem;
+}
+
+.foto {
+    display: flex;
+    height: 50vh;
+    width: 90vw;
+}
+
+.fontes2 {
+    font-family: 'Yuji Syuku', serif;
+    color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.fontes3 {
+    font-family: 'Yuji Syuku', serif;
+}
+
+.carousel-caption{
+    font-family: 'Yuji Syuku', serif  ;
+}
+
+.fontes3A {
+    text-align: end;
+    margin-bottom: 2rem;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.fontes3B {
+    text-align: start;
+    margin-bottom: 2rem;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.letraFotos {
+    background-color: transparent;
+}

@@ -1,0 +1,93 @@
+#karatedo {
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Yuji Syuku', serif;
+    margin-top: 5rem;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+#karateKanji {
+    width: 3rem;
+    height: 5rem;
+    opacity : 0.9;
+}
+
+.nome {
+    color: rgb(22, 22, 22);
+    background-color: rgba(175, 174, 174, 0.753);
+    font-family: 'Yuji Syuku', serif;
+}
+
+.nome:focus, .nome:hover {
+    background-color: rgba(22, 22, 22, 0.808);
+    text-decoration: none;
+    color: rgb(212, 209, 209);
+}
+
+.card-body {
+    background-color: rgba(216, 216, 216, 0.5);
+    font-family: 'Yuji Syuku', serif;
+}
+
+.fontes {
+    font-family: 'Yuji Syuku', serif;
+    color: rgb(41, 41, 41);
+    font-weight: 700;
+}
+
+.fontes2 {
+    font-family: 'Yuji Syuku', serif;
+    color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.fontes3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.fontes3A {
+    text-align: end;
+    margin-bottom: 2rem;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.o {
+    display: none;
+}
+
+.fontes3B {
+    text-align: start;
+    margin-bottom: 2rem;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .fontes3A { 
+        text-align: center;
+    }
+
+    .fontes3B {
+        text-align: center;
+    }
+}
